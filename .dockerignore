@@ -1,0 +1,28 @@
+# Version control
+.git
+.gitignore
+
+# Node.js
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+dist
+
+# Environment files (copy selectively in Dockerfile)
+.env.local
+.env.*.local
+
+# Development files
+*.md
+.vscode
+.idea
+*.test.ts
+*.spec.ts
+coverage
+
+# AWS/EB files
+.elasticbeanstalk
+.ebextensions
